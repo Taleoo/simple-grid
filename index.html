@@ -1,0 +1,158 @@
+<html>
+    <meta charset="UTF-8" lang="fr"> 
+    <head>
+        <style>
+            body{
+                font-size: 16px;
+                background-color: hsl(204, 43%, 93%);
+                font-family: Karla;
+            }
+            #bigdiv{
+                 width : 50%;
+                 height : 70%; 
+                 margin : auto;
+                 margin-top: 5%;
+                 border-radius: 10px;
+                 box-shadow: 0px 0px 10px 3px rgba(207,203,207,1);
+                 display : flex;
+                 flex-wrap: wrap;
+
+            }
+            #topdiv{
+                width : 94%;
+                height: 45%;
+                padding-left: 6%;
+                padding-top: 2%;
+                background-color: white;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            #bottomleft{
+                width : 44%;
+                height: 50%;
+                padding-left: 6%;
+                padding-top: 3%;
+                background-color: hsl(179, 62%, 43%);
+                border-bottom-left-radius: 10px;
+                display : flex;
+                flex-direction: column;
+                line-height: 1em;
+
+            }
+            #bottomright{
+                width : 44%;
+                height: 50%;
+                padding-left: 6%;
+                padding-top: 3%;
+                background-color: hsl(179, 78%, 45%);
+                border-bottom-right-radius: 10px;
+
+            }
+            #title {
+                color :hsl(179, 62%, 43%);
+                font-weight: 700;
+                font-size : 2.5em;
+            }
+            #subtitle{
+                font-weight: 700;
+                font-size: 2em;
+                color:hsl(71, 73%, 54%)
+            }
+            #par1{
+                font-size: 1.5em;
+                color: hsl(218, 22%, 67%);
+                line-height: 150%;
+            }
+            .bottomtitle {
+                color: white;
+                font-size: 1.5em;
+            }
+            #price{
+                color: white;
+                font-size : 2.5em;
+                margin-right: 2%;
+            }
+            #month{
+                color: hsl(217, 9%, 72%);
+                font-size: 1.2em;
+                font-weight: 400;
+                margin-top: 1%;
+            }
+            #access{
+                color: white;
+                font-size: 1.3em;
+            }
+            #sign {
+                background-color: hsl(71, 73%, 54%);
+                width: 75%;
+                height: 20%;
+                border : none;
+                border-radius: 5px;
+                margin-top: 3%;
+            }
+            .list {
+                padding: 0;
+                color: white;
+                font-size: 1.2em;
+                line-height: 150%;
+                list-style-type: none;
+            }
+            #span1{
+                position : relative;
+                top : -0.5em;
+            }
+            #sign:hover{
+                background-color: powderblue;
+            }
+            @media screen and (max-width: 480px)
+            {
+            #bigdiv{
+                 width: auto;
+                 height: 100%;
+                 margin-top: 0;
+                 flex-direction: column;
+                 flex-wrap: nowrap;
+
+            }
+            #bottomleft{
+                width: auto;
+                border-bottom-left-radius: 0;
+            }
+            #bottomright{
+                width: auto;
+                border-bottom-left-radius: 10px;
+            }
+            }
+        </style>
+    </head>
+        <body>
+            <div id="bigdiv">
+                <div id="topdiv">
+                    <h1 id="title">Join our community</h1>
+                    <h2 id="subtitle">30-day, hassle-free money back guarantee</h2>
+                    <p id="par1">Gain access to our full library of tutorials along with expert code reviews.<br>
+                    Perfect for any developers who are serious about honing their skills.</p>
+                </div>
+                <div id ="bottomleft">
+                    <h2 class="bottomtitle">Monthly Subscription</h2>
+                    <div id="month">
+                        <p><strong id="price">$29</strong> <span id="span1">per month</span></p>
+                    </div>
+                    <p id="access">Full access for less than $1 a day</p>
+                        <button class="bottomtitle" id ="sign">Sign Up</button>
+                </div>
+                <div id="bottomright">
+                    <h2 class="bottomtitle">Why Us</h2>
+                    <ul class="list">
+                        <li>Tutorials by industry experts</li>
+                        <li>Peer & expert code review</li>
+                        <li>Coding exercises</li>
+                        <li>Access to our GitHub repos</li>
+                        <li>Community forum</li>
+                        <li>Flashcard decks</li>
+                        <li>New videos every week</li>
+                    </ul>
+                </div>
+            </div>
+        </body>
+</html>
