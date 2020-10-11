@@ -1,108 +1,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
-@media screen and (min-device-width: 481px) {
-body {
-    font-size: 16px;
-    background-color: hsl(204, 43%, 93%);
-    font-family: Karla;
-}
-#bigdiv {
-    width: 63em;
-    height: 48em;
-    margin: auto;
-    margin-top: 5em;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 3px rgba(207, 203, 207, 1);
-    display: flex;
-    flex-wrap: wrap;
-}
-#topdiv {
-    width: 65em;
-    height: 20em;
-    padding-left: 4em;
-    padding-top: 2em;
-    background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-#bottomleft {
-    width: 27.5em;
-    height: 23em;
-    padding-left: 4em;
-    padding-top: 3em;
-    background-color: hsl(179, 62%, 43%);
-    border-bottom-left-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    line-height: 0.25em;
-}
-#bottomright {
-    width: 27.5em;
-    height: 23em;
-    padding-left: 4em;
-    padding-top: 3em;
-    background-color: hsl(179, 78%, 45%);
-    border-bottom-right-radius: 10px;
-    line-height: 0.25em;
-}
-#title {
-    color: hsl(179, 62%, 43%);
-    font-weight: 700;
-    font-size: 2.5em;
-    margin-bottom: 1em;
-}
-#subtitle {
-    font-weight: 700;
-    font-size: 1.8em;
-    color: hsl(71, 73%, 54%);
-}
-#par1 {
-    font-size: 1.5em;
-    color: hsl(218, 22%, 67%);
-    line-height: 150%;
-}
-.bottomtitle {
-    color: white;
-    font-size: 1.7em;
-}
-#price {
-    color: white;
-    font-size: 2.5em;
-    margin-right: 0.25em;
-}
-#month {
-    color: hsl(217, 9%, 72%);
-    font-size: 1.5em;
-    font-weight: 400;
-    margin-top: 1em;
-}
-#access {
-    color: white;
-    font-size: 1.5em;
-}
-#sign {
-    background-color: hsl(71, 73%, 54%);
-    width: 16em;
-    height: 3em;
-    border: none;
-    border-radius: 5px;
-    margin-top: 1.5em;
-    font-size: 1.5em;
-}
-.list {
-    padding: 0;
-    color: white;
-    font-size: 1.4em;
-    line-height: 1.5em;
-    list-style-type: none;
-    margin-top: 2em;
-}
-#span1 {
-    position: relative;
-    top: -0.5em;
-}
-#sign:hover {
-    background-color: powderblue;
-}
+@media screen and (min-width: 481px) {
+    body {
+        font-size: 16px;
+        background-color: hsl(204, 43%, 93%);
+        font-family: Karla;
+    }
+    #bigdiv {
+        width: 63em;
+        height: 48em;
+        margin: auto;
+        margin-top: 5em;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 3px rgba(207, 203, 207, 1);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #topdiv {
+        width: 65em;
+        height: 20em;
+        padding-left: 4em;
+        padding-top: 2em;
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #bottomleft {
+        width: 27.5em;
+        height: 23em;
+        padding-left: 4em;
+        padding-top: 3em;
+        background-color: hsl(179, 62%, 43%);
+        border-bottom-left-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        line-height: 0.25em;
+    }
+    #bottomright {
+        width: 27.5em;
+        height: 23em;
+        padding-left: 4em;
+        padding-top: 3em;
+        background-color: hsl(179, 78%, 45%);
+        border-bottom-right-radius: 10px;
+        line-height: 0.25em;
+    }
+    #title {
+        color: hsl(179, 62%, 43%);
+        font-weight: 700;
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    #subtitle {
+        font-weight: 700;
+        font-size: 1.8em;
+        color: hsl(71, 73%, 54%);
+    }
+    #par1 {
+        font-size: 1.5em;
+        color: hsl(218, 22%, 67%);
+        line-height: 150%;
+    }
+    .bottomtitle {
+        color: white;
+        font-size: 1.7em;
+    }
+    #price {
+        color: white;
+        font-size: 2.5em;
+        margin-right: 0.25em;
+    }
+    #month {
+        color: hsl(217, 9%, 72%);
+        font-size: 1.5em;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+    #access {
+        color: white;
+        font-size: 1.5em;
+    }
+    #sign {
+        background-color: hsl(71, 73%, 54%);
+        width: 16em;
+        height: 3em;
+        border: none;
+        border-radius: 5px;
+        margin-top: 1.5em;
+        font-size: 1.5em;
+    }
+    .list {
+        padding: 0;
+        color: white;
+        font-size: 1.4em;
+        line-height: 1.5em;
+        list-style-type: none;
+        margin-top: 2em;
+    }
+    #span1 {
+        position: relative;
+        top: -0.5em;
+    }
+    #sign:hover {
+        background-color: powderblue;
+    }
 }
 @media screen and (max-device-width: 480px) {
     #bigdiv {
