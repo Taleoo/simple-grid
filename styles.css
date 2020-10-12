@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 376px) {
     body {
         font-size: 16px;
         background-color: hsl(204, 43%, 93%);
@@ -104,7 +104,7 @@
         background-color: powderblue;
     }
 }
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 375px) {
     #bigdiv {
         width: 35em;
         height: 80em;
